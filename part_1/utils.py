@@ -15,5 +15,5 @@ def calculate_model_size(model):
             size_model += param.numel() * torch.finfo(param.data.dtype).bits
         else:
             size_model += param.numel() * torch.iinfo(param.data.dtype).bits
-    print('woops')
+        
     return size_model, size_model / 8e6
