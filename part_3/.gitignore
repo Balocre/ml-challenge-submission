@@ -1,0 +1,5 @@
+outputs/
+**/*.onnx
+**/*.pt
+**/*.trt
+**/*.data

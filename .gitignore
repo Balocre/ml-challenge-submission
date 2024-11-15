@@ -1,3 +1,5 @@
 tiny-imagenet-200/
 **/*.JPEG
 **/__pycache__
+ruff.toml
+**/*.pt

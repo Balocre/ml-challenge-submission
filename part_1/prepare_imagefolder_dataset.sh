@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+# Usage prepare_imagefolder_dataset.sh <path to val_annotations.txt> <path to images/>
 
 val_annotations_filepath=${1:-"val_annotations.txt"}
 src=${2:-"images/"}
